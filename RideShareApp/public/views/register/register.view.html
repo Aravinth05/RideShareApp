@@ -1,0 +1,52 @@
+<div class="container">
+
+    <div class="myhead col-sm-8 col-sm-offset-2">
+        <h1><span class="fa fa-sign-in"></span> Register</h1>
+    </div>
+
+    <div class="mybody col-sm-8 col-sm-offset-2">
+        {{error}}
+        <form ng-submit="register(user)">
+            <div class="col-sm-6 col-sm-offset-3">
+                &nbsp;&nbsp;
+            </div> 
+            <img src="/img/login_logo.png" class="center" />
+            <div class="form-group col-sm-6 col-sm-offset-3">
+
+                <input type="text" class="mytext" placeholder="Name" id="name" ng-model="user.name">
+            </div>
+            <div class="form-group col-sm-6 col-sm-offset-3">
+
+                <input type="text" class="mytext" placeholder="Username" id="username" ng-model="user.username">
+            </div>
+            <div class="form-group col-sm-6 col-sm-offset-3">
+
+                <input type="email" class="mytext" placeholder="Email" id="email" ng-model="user.email">
+            </div>
+            <div class="form-group col-sm-6 col-sm-offset-3">
+
+                <input type="password" class="mytext" placeholder="Password" id="password" ng-model="user.password">
+            </div>
+
+
+            <div class="form-group col-sm-6 col-sm-offset-3">
+                <button type="submit" class="btn button2 btn-block">reg</button>
+
+                <span class="pull-left u"><a href="#">forgot password?</a></span>
+            </div>
+            <div class="col-sm-6 col-sm-offset-3">
+                &nbsp;&nbsp;
+            </div>
+        </form>
+       
+            <div class="col-sm-6 col-sm-offset-3">
+                <button ng-click="login()" class="btn button2 btn-block btn-warning">Login</button>
+            </div>
+            <div class="col-sm-6 col-sm-offset-3">
+                &nbsp;&nbsp;
+            </div>
+
+       
+
+    </div>
+</div>

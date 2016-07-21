@@ -1,0 +1,43 @@
+.modal-footer {   border-top: 0px; }
+
+.button1{
+    background-color: #555555;
+     border: none;
+    color: white;
+    text-align: center;
+    
+    padding: 10px 20px;
+}
+.button2{
+    background-color: #EFAE21;
+    border: none;
+    color: white;
+    text-align: center;
+     
+    padding: 10px 20px;
+}
+span.u{
+    text-decoration: underline;
+}
+.myhead{
+    
+    background-color: #3D3B37;
+    color: white;
+    text-align: center;
+    
+}
+
+input[type=text]{
+    border: none;
+    width: 100%;
+    background: none;
+    border-bottom: 1px solid grey;
+}
+input[type=password]{
+    border: none;
+     background: none;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.mybody{
+    background-color: #D7D7D6;
